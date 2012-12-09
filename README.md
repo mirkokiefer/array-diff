@@ -10,7 +10,7 @@ var result = diffCompressed(before, after)
 [['=', [1, 2, 3, 4]], ['+', [7]], ['=', [5]]]
 ```
 
-If you have arrays of unique elements you can diff re-orders. An 'x' denotes a "cut" and a 'p' a "paste":
+If you have arrays of unique elements you can diff re-orders. 'x' denotes a "cut" and 'p' a "paste":
 
 ``` js
 var diff = require('array-diff')({unique: true, compress: true})
