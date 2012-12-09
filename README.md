@@ -21,4 +21,4 @@ var result = diff(before)
 [['=', [1, 2, 3]], ['p', [6]], ['=', [4, 5]], ['x', [6]]]
 ```
 
-This library is used by [array-merge](https://github.com/mirkok/array-merge) to do 3-way merges.
+The diff output can be used by [array-merge](https://github.com/mirkok/array-merge) to do 3-way merges.
