@@ -56,6 +56,10 @@ describe('diff', function() {
     var diff = diffCompressed([1, 2, 3, 4, 5], [1, 2, 3, 4, 7, 5])
     var expected = [['=', [1, 2, 3, 4]], ['+', [7]], ['=', [5]]]
     assert.deepEqual(diff, expected)
+
+    var diff = diffCompressed([1, 2, 3, 4, 5, 6], [1, 2, 3, 6, 4, 5])
+    var expected = [['=',[1,2,3]],['p',[6]],['=',[4,5]],['x',[6]]]
+    assert.deepEqual(diff, expected)
   })
 })
 
