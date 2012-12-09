@@ -1,5 +1,5 @@
 #array-diff
-Find diffs of arrays based on longest common subsequences.
+Find diffs of arrays in javascript based on longest common subsequences.
 
 ``` js
 var diff = require('array-diff')({compress: true})
